@@ -1,0 +1,42 @@
+file /data4/NEXT/sw/irene_trunk/SConstruct,line 153:
+	Configure(confdir = .sconf)
+scons: Configure: Checking for C++ header file TFile.h... 
+scons: Configure: ".sconf/conftest_0.cpp" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf/conftest_0.cpp <-
+  |  |
+  |  |#include "TFile.h"
+  |  |
+  |  |
+  |
+scons: Configure: ".sconf/conftest_0.o" is up to date.
+scons: Configure: The original builder output was:
+  |g++ -o .sconf/conftest_0.o -c -m64 -pthread -rdynamic -I/data4/NEXT/sw/root/include .sconf/conftest_0.cpp
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C++ library Core... 
+scons: Configure: ".sconf/conftest_1.cpp" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf/conftest_1.cpp <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf/conftest_1.o" is up to date.
+scons: Configure: The original builder output was:
+  |g++ -o .sconf/conftest_1.o -c -m64 -pthread -rdynamic -I/data4/NEXT/sw/root/include .sconf/conftest_1.cpp
+  |
+scons: Configure: ".sconf/conftest_1" is up to date.
+scons: Configure: The original builder output was:
+  |g++ -o .sconf/conftest_1 -pthread .sconf/conftest_1.o -L/data4/NEXT/sw/root/lib -lCore -lCint -lRIO -lNet -lHist -lGraf -lGraf3d -lGpad -lTree -lRint -lPostscript -lMatrix -lPhysics -lMathCore -lThread -lm -ldl -lCore
+  |
+scons: Configure: (cached) yes
+
+
